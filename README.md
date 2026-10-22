@@ -15,6 +15,12 @@ panneau solaire du séchoir.
 
 Premier module de l'écosystème **JURU** — *Just Useful Reusable Units*.
 
+**L'idée de fond :** automatiser des choses qui existent déjà au lieu de
+tout racheter. Peu de pièces, peu chères, des composants de récupération
+dès que c'est possible, et un montage à la portée de chacun. C'est moins
+coûteux, et c'est mieux pour l'environnement. Voir la
+[spécification du projet](docs/specification-projet.md).
+
 *[English version below](#english)*
 
 ---
@@ -29,6 +35,7 @@ Premier module de l'écosystème **JURU** — *Just Useful Reusable Units*.
 | Choix des composants | ✅ Terminé |
 | Programme de la carte — v0.1.0 « ça mesure » | 🔧 En cours |
 | Banc d'essai capteurs (fiabilité des mesures température/humidité) | 🔧 En cours |
+| Petit boîtier modulaire à clipser ([détails](docs/specification-projet.md#4-le-boîtier-modulaire)) | 🔧 En conception |
 | v0.2.0 « ça régule » : régulation complète, presets, page web | ⏳ À venir |
 | Assemblage et essais au soleil | ⏳ À venir |
 | v0.3.0 « ça se met à jour » : mises à jour sans câble | ⏳ À venir |
@@ -96,7 +103,8 @@ capteur solaire et extraction forcée convient.
 
 ## Contenu du dépôt
 
-    docs/cahier-des-charges.md     Spécification complète (matériel, régulation, web, OTA, recette)
+    docs/specification-projet.md   Spécification du projet JURU : principes, boîtier modulaire, socle commun, modules
+    docs/cahier-des-charges.md     Spécification complète du module séchoir (matériel, régulation, web, OTA, recette)
     docs/05-architecture-web.md    Choix d'architecture de la page web embarquée, sourcés
     assets/                        Logo du module (clair et sombre)
 
@@ -129,6 +137,12 @@ dryer's solar panel.
 
 First module of the **JURU** ecosystem — *Just Useful Reusable Units*.
 
+**The core idea:** automate things that already exist instead of buying
+everything new. Few parts, cheap parts, salvaged components whenever
+possible, and assembly anyone can do. It costs less, and it is better for
+the environment. See the
+[project specification](docs/specification-projet.md) (French).
+
 ## Project status
 
 *Updated October 22, 2026.*
@@ -139,6 +153,7 @@ First module of the **JURU** ecosystem — *Just Useful Reusable Units*.
 | Component selection | ✅ Done |
 | Firmware — v0.1.0 "it measures" | 🔧 In progress |
 | Sensor test bench (temperature/humidity accuracy) | 🔧 In progress |
+| Small clip-on modular enclosure | 🔧 In design |
 | v0.2.0 "it regulates": full control loop, presets, web page | ⏳ Planned |
 | Assembly and outdoor testing | ⏳ Planned |
 | v0.3.0 "it updates itself": over-the-air updates | ⏳ Planned |
@@ -200,7 +215,8 @@ forced extraction will do.
 
 ## Repository contents
 
-    docs/cahier-des-charges.md     Full specification (hardware, control, web, OTA, acceptance tests)
+    docs/specification-projet.md   JURU project specification: principles, modular enclosure, shared core, modules
+    docs/cahier-des-charges.md     Full dryer module specification (hardware, control, web, OTA, acceptance tests)
     docs/05-architecture-web.md    Embedded web page architecture choices, with sources
     assets/                        Module logo (light and dark)
 
