@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="140" height="140" role="img" aria-label="juru-mistral">
+  <!-- Symbole du module mistral : trois flux d'air traversant un cercle -->
+  <g fill="none" stroke="#efece3" stroke-width="4" stroke-linecap="round">
+    <circle cx="44" cy="50" r="26"/>
+    <path d="M14 42 H36 C46 42 46 42 56 40 L88 34"/>
+    <path d="M10 50 H92"/>
+    <path d="M14 58 H36 C46 58 46 58 56 60 L88 66"/>
+  </g>
+</svg>
